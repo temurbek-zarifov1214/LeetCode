@@ -1,3 +1,4 @@
+package binaryTree;
 
 /// Best solution for addBinary problems
 public class Add_Binary {

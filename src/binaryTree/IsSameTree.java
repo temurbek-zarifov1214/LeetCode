@@ -1,3 +1,5 @@
+package binaryTree;
+
 public class IsSameTree {
     public static void main(String[] args) {
 
@@ -11,22 +13,5 @@ public class IsSameTree {
         }
         return p.val == q.val&&isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
     }
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
 
-        TreeNode() {
-        }
-
-        TreeNode(int val) {
-            this.val = val;
-        }
-
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
 }
